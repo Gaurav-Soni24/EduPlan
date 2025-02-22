@@ -1,7 +1,7 @@
 # EduPlan - AI-Powered Lesson Planner 📚
 
 ## Overview
-EduPlan is a React.js-based lesson planner that integrates the **Google Gemini API** to dynamically generate lesson content. Designed for educators, it provides a user-friendly interface to create, edit, and download lesson plans in a structured format. The project leverages **ShadCN UI components**, **TailwindCSS**, and **react-to-print** for seamless UI/UX and PDF generation.
+EduPlan is a React.js-based lesson planner that integrates the **Google Gemini API** to dynamically generate lesson content. Designed for educators, it provides a user-friendly interface to create, edit, and download lesson plans in a structured format. The project leverages **ShadCN UI components**, **TailwindCSS**
 
 ## Features 🚀
 - **🔐 Dummy Login System**: Users log in with a pre-defined account (Frontend only).
