@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EduPlan - AI-Powered Lesson Planner 📚
 
-## Getting Started
+## Overview
+EduPlan is a React.js-based lesson planner that integrates the **Google Gemini API** to dynamically generate lesson content. Designed for educators, it provides a user-friendly interface to create, edit, and download lesson plans in a structured format. The project leverages **ShadCN UI components**, **TailwindCSS**, and **react-to-print** for seamless UI/UX and PDF generation.
 
-First, run the development server:
+## Features 🚀
+- **🔐 Dummy Login System**: Users log in with a pre-defined account (Frontend only).
+- **📝 Lesson Plan Form**: Enter key details like Topic, Grade Level, Learning Objectives, and more.
+- **🤖 AI-Powered Content Generation**: Uses Google Gemini API to generate lesson plans.
+- **🎨 Editable & Structured UI**: Implements **ShadCN UI components** like Cards, Accordions, and Inputs.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack 🛠
+- **Frontend**: React.js (Vite/Next.js preferred)
+- **UI Components**: ShadCN + TailwindCSS
+- **API Integration**: Google Gemini API (free version)
+- **State Management**: React State / Context API
+- **PDF Handling**: react-to-print / jsPDF
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation ⚙️
+Follow these steps to set up EduPlan locally:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/yourusername/eduplan.git
+   cd eduplan
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Install Dependencies**:
+   ```sh
+   npm install
+   ```
 
-## Learn More
+3. **Set Up Environment Variables**:
+   Create a `.env.local` file and add:
+   ```env
+   NEXT_PUBLIC_GEMINI_API_KEY=your_google_gemini_api_key
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Run the Development Server**:
+   ```sh
+   npm run dev
+   ```
+   Access the application at `http://localhost:3000`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage 💡
+1. **Log In**: Use dummy credentials `demouser/demopass` to access the lesson planner.
+2. **Fill Out Lesson Details**: Enter the topic, grade level, and learning objectives.
+3. **Generate Lesson Plan**: Click 'Generate' to fetch AI-powered content.
+4. **Edit & Format**: Modify the structured content within the UI.
+5. **Download as PDF**: Save the lesson plan as a PDF using the **Download** button.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Bonus Features ✨
+- **Live Deployment**: Host on **Vercel** and share the live link.
 
-## Deploy on Vercel
+## Evaluation Criteria 🏆
+- **UI/UX Quality**: Clean, modern design using ShadCN components.
+- **API Integration**: Proper Gemini API interaction & structured content generation.
+- **Functionality**: Dummy login, editable AI-generated lesson plan, and PDF download.
+- **Code Quality**: Modular, maintainable, and well-documented code.
+- **Bonus Points**: Dark mode, local storage, enhanced editing UI.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License 📄
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact ✉️
+For inquiries or support, reach out at [soniguarav2021@gmail.com](mailto:soniguarav2021@gmail.com) 
+
+
