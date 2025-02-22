@@ -14,7 +14,6 @@ EduPlan is a React.js-based lesson planner that integrates the **Google Gemini A
 - **UI Components**: ShadCN + TailwindCSS
 - **API Integration**: Google Gemini API (free version)
 - **State Management**: React State / Context API
-- **PDF Handling**: react-to-print / jsPDF
 
 ## Installation ⚙️
 Follow these steps to set up EduPlan locally:
@@ -47,7 +46,6 @@ Follow these steps to set up EduPlan locally:
 2. **Fill Out Lesson Details**: Enter the topic, grade level, and learning objectives.
 3. **Generate Lesson Plan**: Click 'Generate' to fetch AI-powered content.
 4. **Edit & Format**: Modify the structured content within the UI.
-5. **Download as PDF**: Save the lesson plan as a PDF using the **Download** button.
 
 ## Bonus Features ✨
 - **Live Deployment**: Host on **Vercel** and share the live link.
